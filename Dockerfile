@@ -27,7 +27,7 @@ RUN ls $ANDROID_SDK_ROOT/build-tools/30.0.3/
 # Définir le répertoire de travail
 WORKDIR /app
 
-COPY app-production-release-unsigned.apk /app/app-production-release-unsigned.apk
+#COPY app-production-release-unsigned.apk /app/app-production-release-unsigned.apk
 
 COPY obbled.jks /app/obbled.jks
 # Copier et donner les permissions d'exécution au script de signature
