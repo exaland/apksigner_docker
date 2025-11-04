@@ -28,7 +28,7 @@ RUN ls $ANDROID_SDK_ROOT/build-tools/30.0.3/
 WORKDIR /app
 
 #COPY app-production-release-unsigned.apk /app/app-production-release-unsigned.apk
-
+COPY fxemoitaxi.jks /app/fxemoitaxi.jks
 COPY obbled.jks /app/obbled.jks
 # Copier et donner les permissions d'exécution au script de signature
 COPY sign-apk.sh /app/sign-apk.sh
