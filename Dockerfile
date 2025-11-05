@@ -1,5 +1,5 @@
 # Utiliser une image de base légère avec OpenJDK 11
-FROM openjdk:11-jdk-slim
+FROM eclipse-temurin:11-jdk-jammy
 
 # Définir les variables d'environnement pour le SDK Android
 ENV ANDROID_SDK_ROOT="/sdk"
